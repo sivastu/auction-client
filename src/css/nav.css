@@ -1,0 +1,260 @@
+nav .nav-wrapper{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.search{
+	color:"black";
+	padding-right: 20px;
+}
+nav{
+	box-shadow: unset;
+}
+.sec_nav{
+	width: 100%;
+	height: 5px;
+}
+.sec_nav {
+	background: linear-gradient(-45deg, red, orange, yellow, green, blue, indigo, violet);
+	background-size: 400% 400%;
+	animation: gradient 45s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.btn{
+	text-transform: unset !important;
+}
+.modal{
+	width: 35% !important;
+	height: 35% !important;
+}
+.collection{
+	border: unset;
+}
+.modal-content{
+	border: unset !important;
+}
+.modal-footer{
+	border-top: unset !important;
+}
+.btn-flat{
+	border: 1px solid #dee2e6;
+}
+
+.popuplink{
+	color: red !important;
+}
+
+.remove{
+	display: block;
+  margin-right: auto !important;
+}
+.coin{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.logocss{
+	width: 80%;
+}
+.banner{
+	flex-direction: unset !important;
+	margin: .3rem 0 1rem 0 !important;
+	border: unset !important;
+}
+.bannersize{
+	max-width: 80% !important;
+}
+.quote{
+	text-align: center;
+	margin-top: 200px;
+	margin-bottom: 200px;
+}
+.qu{
+	font-size: x-large;
+}
+.foot{
+   	 bottom:0;
+   	 width:100%;  
+   	 background:#6cf;
+	text-align: center;
+	padding-top: 0 !important;
+	background-color: #fff !important;
+	box-shadow: 1px -1px 3px 1px #888888;
+}
+.foots{
+	background-color: #fff !important;
+}
+.fo{
+	color: 	#000;
+}
+.trcd{
+	margin-bottom: 200px;
+	--bs-gutter-x: unset !important;
+	text-align: center;
+}
+.progress{
+	height: 4px !important;
+	background-color: #fff !important;
+}
+.befarediv{
+	display: flex;
+  justify-content: center;
+}
+.blue.darken-1 {
+    background-color: #FFCB00 !important;
+}
+.align{
+	align-items: baseline
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.procad{
+	width: 250px;
+}
+.gallery {
+    padding-top: 60px;
+}
+.pub{
+	background-color: red;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	padding: unset !important;
+	font-size: larger !important;
+}
+.fxruby{
+	display: block ruby;
+}
+.chps{
+	background-color: bisque;
+	width: 220px;
+	text-align: center;
+	border-radius: 30px;
+}
+.crdsi{
+	width: 48% !important;
+}
+.home-card{
+	max-width: 850px !important;
+}
+.riimg{
+	width: 100%;
+}
+.rw{
+	margin-bottom: unset !important;
+	--bs-gutter-x: 0rem !important;
+}
+.huk{
+	border-top: 1px solid rgba(160,160,160,0.2);
+}
+.pdd2{
+	padding: 0 .15rem !important;
+	margin-top: 15px;
+}
+.pdd{
+	padding: 0 .15rem !important;
+	margin-top: 10px;
+}
+.over{
+	height: 100px;
+	overflow-y: scroll
+}
+.unlike{
+	color: red;
+}
+.seco{
+	display: block;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	margin-top: auto !important;
+	margin-bottom: auto !important;
+}
+.alla{
+	margin-top: 100px !important;
+}
+.cccm{
+	color: blueviolet;
+}
+.dte{
+	font-size: 8px;
+	padding-left: 6px;
+	padding-right: 6px;
+	color: red;
+}
+.cooo{
+	width: 200px !important;
+}
+.oko{
+	margin-bottom: 0px !important;
+}
+.hh{
+	font-size: 11px;
+}
+.tit{
+	font-weight: bolder;
+}
+.bottom-sheet{
+	width: 100% !important;
+}
+.deta{
+	max-width: 1100px !important;
+}
+.carousel{
+	height: unset !important;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.leaflet-container {
+  height: 600px;
+  width: 100%;
+}
+
+.leaflet-div-icon {
+  background: transparent;
+  border: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  nav ul a{
+  	padding: 0 5px !important;
+  	background-color: #acece6;
+  }
+}
+@media only screen and (max-width: 400px) {
+  nav ul a{
+  	padding: 0 2px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logocss {
+    width: 60% !important;
+}
+}
