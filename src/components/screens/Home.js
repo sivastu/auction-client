@@ -26,16 +26,19 @@ const Home  = ()=>{
         setRe(0)
         setLim(10)
         setSkp(0)
+        if(JSON.parse(localStorage.getItem("user"))){
             fetch(`/allpost/${lim}/${skp}`,{
                 headers:{
                     "Content-Type":"application/json",
                     "Authorization":"Bearer "+localStorage.getItem("jwt")
                 }
+        
         }).then(res=>res.json())
        .then(result=>{
            setData(result.posts)
            setSkp(10)
        })
+   }
     },[])
 
     const fetchData =async ()=>{
